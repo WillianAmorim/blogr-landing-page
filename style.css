@@ -11,6 +11,16 @@ header {
   border-radius: 0px 0px 0px 100px;
 }
 
+/* INICIO DE ESTILIZAÇÃO DO BUTTON */
+
+button {
+  width: 137px;
+  height: 48px;
+  border-radius: 28px;
+}
+
+/* FINAL DE ESTIZILAÇÃO DO BUTTON */
+
 /* INICIO ESTILIZAÇÃO NAV */
 
 header nav {
@@ -35,7 +45,18 @@ header nav div {
   align-items: center;
 }
 
+#button-signUp {
+  background-color: #FFFFFF;
+  border: #FFFFFF;
+  color: #FF505C;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
 /* FINAL ESTILIZAÇÃO NAV */
+
+/* INICIO ESTILIZAÇÃO SECTION-HEADER */
 
 .section-header {
   display: flex;
@@ -60,3 +81,6 @@ header nav div {
   text-align: center;
   color: #FFFFFF;
 }
+
+/* FINAL ESTILIZAÇÃO SECTION-HEADER */
+
