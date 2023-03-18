@@ -19,3 +19,11 @@ header nav {
 header nav div {
   display: flex;
 }
+
+header > nav > div > ul {
+  display: flex;
+}
+
+header > nav > ul {
+  display: flex;
+}
