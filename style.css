@@ -43,3 +43,12 @@ header nav div {
   align-items: center;
   margin-top: 123px;
 }
+
+.section-header h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 98px;
+  text-align: center;
+  letter-spacing: -1.92px;
+  color: #FFFFFF;
+}
