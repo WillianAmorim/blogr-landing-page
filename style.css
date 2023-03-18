@@ -15,3 +15,7 @@ header nav {
   display: flex;
   justify-content: space-around;
 }
+
+header nav div {
+  display: flex;
+}
