@@ -17,6 +17,9 @@ button {
   width: 137px;
   height: 48px;
   border-radius: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 /* FINAL DE ESTIZILAÇÃO DO BUTTON */
@@ -47,11 +50,8 @@ header nav div {
 
 #button-signUp {
   background-color: #FFFFFF;
-  border: #FFFFFF;
+  border: 1px solid #FFFFFF;
   color: #FF505C;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
 }
 
 /* FINAL ESTILIZAÇÃO NAV */
@@ -79,6 +79,24 @@ header nav div {
   font-size: 20px;
   line-height: 31px;
   text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.div-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+#button-start-for-free {
+  border: 1px solid #FFFFFF;
+  color: #FF505C;
+  background-color: #FFFFFF;
+}
+
+#button-learn-more {
+  border: 1px solid #FFFFFF;
+  background-color: #FF505C;
   color: #FFFFFF;
 }
 
