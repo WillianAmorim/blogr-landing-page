@@ -7,11 +7,10 @@
 header {
   width: 100vw;
   height: 600px;
-  background-image: url('./images/bg-pattern-intro-mobile.svg');
-  background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+  background: url('./images/bg-pattern-intro-mobile.svg'), linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+  background-size: auto;
   background-position: center;
   border-radius: 0px 0px 0px 100px;
-
 }
 
 /* INICIO DE ESTILIZAÇÃO DO BUTTON */
