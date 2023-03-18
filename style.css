@@ -18,12 +18,19 @@ header nav {
 
 header nav div {
   display: flex;
+  gap: 60px;
+}
+
+ul {
+  list-style: none;
 }
 
 header > nav > div > ul {
   display: flex;
+  gap: 32px;
 }
 
 header > nav > ul {
   display: flex;
+  gap: 32px;
 }
