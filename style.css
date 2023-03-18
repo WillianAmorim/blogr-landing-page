@@ -24,17 +24,12 @@ header nav div {
   gap: 60px;
 }
 
-ul {
+.list-itens {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
   list-style: none;
-}
-
-header > nav > div > ul {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-}
-
-header > nav > ul {
   display: flex;
   gap: 32px;
   align-items: center;
