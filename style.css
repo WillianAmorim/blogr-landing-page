@@ -10,3 +10,8 @@ header {
   background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
   border-radius: 0px 0px 0px 100px;
 }
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
