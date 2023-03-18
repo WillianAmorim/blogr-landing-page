@@ -11,9 +11,12 @@ header {
   border-radius: 0px 0px 0px 100px;
 }
 
+/* INICIO ESTILIZAÇÃO NAV */
+
 header nav {
   display: flex;
   justify-content: space-around;
+  padding-top: 60px;
 }
 
 header nav div {
@@ -28,9 +31,13 @@ ul {
 header > nav > div > ul {
   display: flex;
   gap: 32px;
+  align-items: center;
 }
 
 header > nav > ul {
   display: flex;
   gap: 32px;
+  align-items: center;
 }
+
+/* FINAL ESTILIZAÇÃO NAV */
