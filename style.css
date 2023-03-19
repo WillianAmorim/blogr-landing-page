@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-/* main {
-  overflow: hidden;
-} */
-
 header {
   height: 600px;
   background: url('./images/bg-pattern-intro-mobile.svg'), linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
@@ -25,6 +21,8 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
+  font-family: 'Ubuntu';
+  font-style: normal;
 }
 
 /* FINAL DE ESTIZILAÇÃO DO BUTTON */
@@ -43,14 +41,16 @@ header nav div {
 }
 
 .list-itens {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  color: #FFFFFF;
   list-style: none;
   display: flex;
   gap: 32px;
   align-items: center;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
 }
 
 #button-signUp {
@@ -71,6 +71,8 @@ header nav div {
 }
 
 .section-header h1 {
+  font-family: 'Overpass SemiBold';
+  font-style: normal;
   font-weight: 600;
   font-size: 64px;
   line-height: 98px;
@@ -80,6 +82,8 @@ header nav div {
 }
 
 .section-header p {
+  font-family: 'Overpass Light';
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 31px;
@@ -300,5 +304,3 @@ header nav div {
 }
 
 /* FINAL ESTILIZAÇÃO SECTION-FOOTER */
-
-
