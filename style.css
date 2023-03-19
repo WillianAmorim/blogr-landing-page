@@ -53,6 +53,17 @@ header nav div {
   color: #FFFFFF;
 }
 
+.list-itens > li {
+  display: flex;
+  gap: 8px;
+}
+
+.list-itens > li > img {
+  width: 10px;
+  height: 5px;
+  align-self: center;
+}
+
 #button-signUp {
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
