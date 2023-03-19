@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
+/* main {
+  overflow: hidden;
+} */
+
 header {
-  width: 100vw;
   height: 600px;
   background: url('./images/bg-pattern-intro-mobile.svg'), linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
   background-size: auto;
@@ -106,27 +109,54 @@ header nav div {
 
 /* INICIO ESTILIZAÇÃO DIV-DESIGNED-FOR-THE-FUTURE */
 
-/* .div-designed-for-the-future {
-  margin-top: 70px;
+.div-designed-for-the-future {
+  padding-top: 70px;
+  overflow: hidden;
+  height: 882px;
+  background-image: url('./images/illustration-editor-desktop.svg');
+  background-repeat: no-repeat;
+  background-position-x: 650px;
+}
+
+.div-designed-for-the-future > h1 {
+  font-family: 'Overpass SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 61px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #1F3E5A;
+}
+
+.section-info > div{
+  margin-top: 100px;
+  width: 450px ;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
+  gap: 60px;
 }
 
-.div-designed-for-the-future > h1{
-  text-align: center;
+.section-info h1 {
+  font-family: 'Overpass SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #1F3E5A;
+  margin-bottom: 16px;
 }
 
-.div-conteudo{
-  display: flex;
-  gap: 100px;
+.section-info p {
+  font-family: 'Overpass Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #4C5862;
 }
-
-.div-conteudo > section {
-  width: 540px;
-  margin-left: 150px;
-} */
-
-
 
 /* FINAL ESTILIZAÇÃO DIV-DESIGNED-FOR-THE-FUTURE */
 
