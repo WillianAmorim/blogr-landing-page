@@ -251,4 +251,54 @@ header nav div {
 
 /* FINAL ESTILIZAÇÃO SECTION-LAPTOP */
 
+/* INICIO ESTILIZAÇÃO SECTION-FOOTER */
+
+.section-footer {
+  margin-top: 100px;
+  height: 359px;
+  background: #24242C;
+  border-radius: 0px 100px 0px 0px;
+}
+
+.section-footer > div {
+  display: flex;
+  gap: 220px;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.section-footer > div > img {
+  align-self: flex-start;
+}
+
+.section-footer > div > ul {
+  list-style: none;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.list-footer > li:first-child {
+  margin-top: 20px;
+}
+
+.list-footer > li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 33px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+/* FINAL ESTILIZAÇÃO SECTION-FOOTER */
+
 
