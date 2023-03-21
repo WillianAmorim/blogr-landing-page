@@ -198,29 +198,40 @@ header nav div {
 /* INICIO ESTILIZAÇÃO SECTION-CELULAR */
 
 .section-celular {
+  overflow: hidden;
   margin-top: 50px;
   height: 350px;
   background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
-  border-radius: 0px 100px;
+  border-radius: 0px 100px;display: flex;
   display: flex;
-  gap: 100px;
 }
 
 .section-celular > img {
-  margin-left: 100px;
   position: relative;
-  width: 470px;
-  height: 500px;
-  bottom: 60px;
+  height: 750px;
+  bottom: 350px;
 }
 
 .section-celular > div {
-  width: 500px;
-  height: 178px;
-  align-self: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 0 0 0 150px;
+  margin-top: -50px;
 }
 
-.section-celular > div > h1 {
+.section-celular > div > img {
+  width: 450px;
+  height: 470px;
+}
+
+.section-celular > div > div {
+  width: 540px;
+  height: 178px;
+}
+
+.section-celular > div > div > h1 {
   font-family: 'Overpass SemiBold';
   font-style: normal;
   font-weight: 600;
@@ -230,7 +241,7 @@ header nav div {
   color: #FFFFFF;
 }
 
-.section-celular > div > p {
+.section-celular > div > div > p {
   font-family: 'Overpass Light';
   font-style: normal;
   font-weight: 400;
